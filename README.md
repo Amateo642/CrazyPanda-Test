@@ -1,2 +1,0 @@
-# CrazyPanda-Test
-CrazyPanda Test
