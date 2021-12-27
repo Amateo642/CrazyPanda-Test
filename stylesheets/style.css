@@ -1,0 +1,60 @@
+table {
+    width: 100%;
+    background: linear-gradient(to right, #cfcaca, #9198e5);
+    border: 2px solid black;
+    border-collapse: collapse;  
+}
+
+thead {
+    border: 2px solid black;
+}
+
+th {
+    position: relative;
+    cursor: pointer;
+    padding: 0 15px;
+}
+
+td {
+    border: 1px solid #b5b5d4; 
+}
+
+.pagination {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.page-input {
+    width: 20px;
+    text-align: right;
+    border: none;
+    background: rgb(236, 235, 235);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.search {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+th::after {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    top: 6px;
+    right: 0;
+    content: '';
+}
+
+th.asc::after {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+}
+
+th.desc::after {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+}
